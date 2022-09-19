@@ -1,0 +1,67 @@
+.more-screen .icon-row {
+  padding: 35px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 35px;
+}
+
+.more-suggestions {
+  margin-top: 20px;
+  border-top: var(--main-border);
+  padding-top: 30px;
+}
+
+.more-suggestions__title {
+  margin-bottom: 30px;
+}
+
+.more-suggestions__icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-suggestions__icon {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more-suggestions__icon-img img {
+  border: 1px solid var(--violet);
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dot__link,
+.icon-row__icon {
+  position: relative;
+}
+
+.dot__header {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.dot__icon-row {
+  position: absolute;
+  top: -25px;
+  right: 15px;
+}
+
+.exclamation-mark {
+  display: inline-block;
+  text-align: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  color: tomato;
+  border: 1px solid tomato;
+  margin-left: 10px;
+}
