@@ -15,49 +15,37 @@
   margin-left: 25px;
 }
 
-@keyframes gearAnimation {
-  50% {
-    transform: rotateZ(0.5turn);
+@keyframes rotateCog {
+  0% {
+    transform: none;
   }
-  100% {
+  50% {
     transform: rotateZ(2turn);
   }
+  100% {
+    transform: none;
+  }
 }
 
-.fa-gear:hover {
-  animation: gearAnimation 2s ease-in-out infinite;
+.screen-header__icons .fa-gear:hover {
+  animation: rotateCog 1s linear infinite;
 }
+
 @keyframes musicAnimation {
-  50% {
+  0% {
+    transform: none;
+  }
+  25% {
     transform: translateY(-10px);
   }
-
   80% {
-    transform: translateY(5px, 50%);
+    transform: translateY(10px);
   }
-
   100% {
-    transform: translateX(-10px);
+    transform: none;
   }
 }
 
-.fa-music:hover {
-  animation: musicAnimation 0.5s ease-in-out infinite;
-}
-@keyframes musicAnimation {
-  50% {
-    transform: translateY(-10px);
-  }
-
-  80% {
-    transform: translateY(5px, 50%);
-  }
-
-  100% {
-    transform: translateX(-10px);
-  }
-}
-
-.fa-music:hover {
-  animation: musicAnimation 0.5s ease-in-out infinite;
+.screen-header__icons .fa-music:hover {
+  animation: musicAnimation 0.5s linear infinite;
 }

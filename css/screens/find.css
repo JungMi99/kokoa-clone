@@ -108,15 +108,15 @@
   }
   50% {
     color: tomato;
-    transform: scale(1);
+    transform: scale(3);
   }
   100% {
-    color: white;
+    color: red;
     transform: none;
   }
 }
 
 .opent-post__heart-count:hover i {
   will-change: transform;
-  animation: heartBeat 0.5s linear infinite;
+  animation: heartBeat 1s linear infinite;
 }
