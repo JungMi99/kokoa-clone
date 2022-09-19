@@ -12,6 +12,7 @@
 @import "components/badge.css";
 @import "components/dot.css";
 @import "components/no-mobile.css";
+@import "components/splash-screen.css";
 
 /* screens */
 @import "screens/splash-screen.css";
